@@ -1,0 +1,15 @@
+CREATE TABLE EMPOLYE
+(
+ssn INT Primary key,
+Fname varchaer(20) not null,
+Lname varchaer (20) not Null,
+Adress Varchar (20),
+Salary Decimal,
+B date Date,
+Sex varchar (20),
+Dnum INt 
+)
+FORGIN KEY (DNUM) REPERENCE DEPERTMENT (Dnum ba)
+);
+INSERT INTO EMPOLYEE VALUES('121','VINAY N M','CHAMARAJANAGAR','15-02-2007','20000','MALE','1001');
+SELECT*FROM EMPOLYEE;
